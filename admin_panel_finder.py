@@ -25,7 +25,7 @@ def credit():
 
 def check_path(base_url, path, opener, results):
     url = f"{base_url.rstrip('/')}/{path.strip().lstrip('/')}"
-    try:
+    try: 
         resp = opener.open(url)
         status = resp.code
         if status == 200:

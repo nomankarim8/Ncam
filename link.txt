@@ -165,7 +165,7 @@ login-redirect/
 sub-login/
 wp-login/
 login1/
-dir-login/
+dir-login/ 
 login_db/
 xlogin/
 smblogin/
