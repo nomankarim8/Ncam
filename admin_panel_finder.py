@@ -40,7 +40,7 @@ def check_path(base_url, path, opener, results):
         
     except URLError:
         pass  
-    except Exception:
+    except Exception: 
         pass
  
 def find_admin():
